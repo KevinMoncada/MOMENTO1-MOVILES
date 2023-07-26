@@ -5,7 +5,7 @@ public class Animal {
    public String nombre;
    public String genero;
     public Double peso;
-   public  Animal pareja;
+     Animal pareja;
 
     //CONSTRUCTORES
     public Animal() {
@@ -16,9 +16,7 @@ public class Animal {
         this.peso = peso;
     }
 
-    void encontrarPareja(Animal pareja){
+    public void encontrarPareja(Animal pareja){
         this.pareja=pareja;
     }
-
-
 }
